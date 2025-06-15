@@ -7,12 +7,12 @@ const Search = ({ searchTerm, setSearchTerm }) => {
 
         <input
           type="text"
-          placeholder="Search for a movie..."
+          placeholder="Search through thousands of movies"
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)} />
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
       </div>
     </div>
-  );
-};
-
-export default Search;
+  )
+}
+export default Search
